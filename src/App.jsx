@@ -2,40 +2,42 @@
 const LOGO = '/logo-flvb.png'
 
 const APP_URL = 'https://app.flvbadvocacia.com.br'
-const WHATSAPP = 'https://wa.me/552139235233'
+const WHATSAPP =
+  'https://wa.me/552139235233?text=' +
+  encodeURIComponent('Olá! Vim através do site da Fernandes, Lopes e Villas Bôas Advocacia. Gostaria de receber orientações sobre meu caso.')
 const INSTAGRAM = 'https://www.instagram.com/flvbadvocacia/'
 const THREADS = 'https://www.threads.net/@flvbadvocacia'
 
 const AREAS = [
   {
-    titulo: 'Justiça Militar da União',
+    titulo: 'Reforma reserva remunerada e incapacidade',
     texto:
-      'Defesa em processos perante a Justiça Militar da União: crimes militares, conselhos de justiça, inquéritos policiais militares e sindicâncias.',
+      'Assessoria em processos de inspeção de saúde, reforma por incapacidade, passagem para a reserva remunerada, revisão de atos de reforma e reconhecimento dos direitos decorrentes.'
   },
   {
-    titulo: 'Processos administrativos disciplinares',
+    titulo: 'Promoções e evolução na carreira',
     texto:
-      'Acompanhamento de transgressões disciplinares, conselhos de disciplina e de justificação, com atuação desde a defesa prévia até os recursos.',
+      'Defesa dos direitos relacionados a promoções, preterições, antiguidade, merecimento, cursos obrigatórios, interstícios, inclusão em quadros de acesso e progressão funcional.',
   },
   {
     titulo: 'Direitos e remuneração do militar',
     texto:
-      'Revisão de soldo, adicionais, gratificações, licenciamento, reintegração, promoções e demais direitos das carreiras militares.',
+      'Revisão de soldo, adicionais, gratificações, auxílio-fardamento, auxílio-transporte, diferenças remuneratórias, cobrança de valores devidos e revisão de atos administrativos que impactem a remuneração.',
   },
   {
-    titulo: 'Reforma, reserva e pensão militar',
+    titulo: 'Movimentação e atos de gestão de pessoal',
     texto:
-      'Orientação e ações sobre reforma por incapacidade, transferência para a reserva e pensões devidas a dependentes de militares.',
+      'Atuação em remoções, movimentações, transferências, designações, licenciamento, exclusão do serviço ativo e demais atos administrativos que afetem a carreira militar.',
   },
   {
-    titulo: 'Saúde e incapacidade',
+    titulo: 'Processos administrativos militares',
     texto:
-      'Atuação em casos de inspeção de saúde, incapacidade definitiva, restrições ao serviço e direitos decorrentes de acidentes em serviço.',
+      'Defesa em sindicâncias, procedimentos administrativos, Conselhos de Disciplina, Conselhos de Justificação e recursos administrativos, assegurando o devido processo legal e a ampla defesa.',
   },
   {
-    titulo: 'Ações contra a União',
+    titulo: 'Pensionistas militares',
     texto:
-      'Ações judiciais na Justiça Federal para garantir direitos negados administrativamente, com cálculo atualizado dos valores devidos.',
+      'Reconhecimento e revisão de pensões militares, habilitação de beneficiários, manutenção do benefício e defesa dos direitos previstos na legislação.',
   },
 ]
 
@@ -103,13 +105,10 @@ export default function App() {
           <div className="hero__texto">
           <p className="eyebrow eyebrow--light">Direito Militar · Rio de Janeiro</p>
           <h1>
-            Quem serviu ao Brasil merece uma defesa
-            <em> à altura da farda.</em>
+            Defesa Especializada em Direito Militar
           </h1>
           <p className="hero__sub">
-            Escritório fundado por três Oficiais de Serviços Jurídicos da Força Aérea
-            Brasileira, dedicado exclusivamente a causas militares — do processo
-            disciplinar à ação judicial contra a União.
+            Atuação exclusiva na defesa de militares da ativa, da reserva, reformados temporários e pensionistas, em processos administrativos e judiciais em todo o Brasil.
           </p>
           <div className="hero__actions">
             <a className="btn btn--prata" href={WHATSAPP} target="_blank" rel="noreferrer">
@@ -150,7 +149,7 @@ export default function App() {
       {/* ===== Áreas de atuação ===== */}
       <section className="areas" id="areas">
         <p className="eyebrow">Áreas de atuação</p>
-        <h2>Onde podemos ajudar</h2>
+        <h2>Nossas áreas de atuação</h2>
         <div className="areas__grid">
           {AREAS.map((a) => (
             <article className="areas__card" key={a.titulo}>
