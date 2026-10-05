@@ -108,7 +108,7 @@ export default function App() {
             Defesa Especializada em Direito Militar
           </h1>
           <p className="hero__sub">
-            Atuação exclusiva na defesa de militares da ativa, da reserva, reformados, temporários e pensionistas, em processos administrativos e judiciais em todo o Brasil.
+            Atuação exclusiva na defesa de militares da ativa, da reserva, reformados, temporários, candidatos a concursos militares e pensionistas, em processos administrativos e judiciais em todo o Brasil.
           </p>
           <div className="hero__actions">
             <a className="btn btn--prata" href={WHATSAPP} target="_blank" rel="noreferrer">
