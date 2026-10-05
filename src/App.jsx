@@ -201,6 +201,9 @@ export default function App() {
             <a href={WHATSAPP} target="_blank" rel="noreferrer">
               <IconWhatsApp width="16" height="16" /> (21) 3923-5233
             </a>
+            <a href="mailto:contato@flvbadvocacia.com.br">
+              <IconMail width="16" height="16" /> contato@flvbadvocacia.com.br
+            </a>
             <a href={`${APP_URL}/cliente`}>
               <IconUser width="16" height="16" /> Área do Cliente
             </a>
