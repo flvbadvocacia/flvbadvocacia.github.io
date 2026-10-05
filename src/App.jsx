@@ -10,7 +10,7 @@ const THREADS = 'https://www.threads.net/@flvbadvocacia'
 
 const AREAS = [
   {
-    titulo: 'Reforma reserva remunerada e incapacidade',
+    titulo: 'Reforma, reserva remunerada e incapacidade',
     texto:
       'Assessoria em processos de inspeção de saúde, reforma por incapacidade, passagem para a reserva remunerada, revisão de atos de reforma e reconhecimento dos direitos decorrentes.'
   },
@@ -38,6 +38,11 @@ const AREAS = [
     titulo: 'Pensionistas militares',
     texto:
       'Reconhecimento e revisão de pensões militares, habilitação de beneficiários, manutenção do benefício e defesa dos direitos previstos na legislação.',
+  },  
+  {
+    titulo: 'Concursos militares',
+    texto:
+      'Atuação na defesa dos direitos de candidatos a concursos militares, tanto no ingresso quanto ao longo de todas as fases do certame. Eliminações indevidas em qualquer etapa do concurso; Recursos administrativos e ações judiciais.',
   },
 ]
 
