@@ -172,7 +172,7 @@ export default function App() {
         <ol className="passos__list">
           <li>
             <strong>Primeiro contato</strong>
-            <p>Envie sua situação pelo WhatsApp. Respondemos com orientação inicial e os documentos necessários.</p>
+            <p>Entre em contato pelo WhatsApp para agendar sua consulta.</p>
           </li>
           <li>
             <strong>Análise do caso</strong>
