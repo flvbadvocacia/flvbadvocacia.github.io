@@ -140,9 +140,9 @@ export default function App() {
           </p>
         </blockquote>
         <div className="sobre__socias">
-          <div><strong>Paola Fernandes</strong><span>Especialista em Direito Militar</span></div>
-          <div><strong>Jéssica Villas Bôas</strong><span>Especialista em Direito Militar</span></div>
-          <div><strong>Monique Desirée</strong><span>Especialista em Direito Militar</span></div>
+          <div><strong>Paola Fernandes</strong><span>OAB/RJ 161.377 e OAB/DF 8844-6</span></div>
+          <div><strong>Jéssica Villas Bôas</strong><span>OAB/RJ 172.374</span></div>
+          <div><strong>Monique Desirée</strong><span>OAB/RJ 174.008 e OAB/DF 8852-6</span></div>
         </div>
       </section>
 
